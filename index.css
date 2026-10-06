@@ -1,0 +1,43 @@
+.square {
+  border: 1px solid black;
+  width: 150px;
+  height: 150px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.square-selected {
+  border: 1px solid red;
+}
+
+h1,
+button {
+  text-align: center;
+  margin: auto;
+  display: block;
+}
+
+h1 {
+  font-size: 25px;
+}
+
+button {
+  margin-top: 40px;
+}
+
+body {
+  position: relative;
+  min-height: 100vh;
+  min-width: 100vw;
+}
+
+section {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  width: 100%;
+  top: 50%;
+  transform: translateY(-50%);
+}
